@@ -6,7 +6,7 @@ public class RotateLock : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+	    
 	}
 	
 	// Update is called once per frame
@@ -22,6 +22,10 @@ public class RotateLock : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.RightArrow)) {
             transform.Rotate(0, 0, rotation);
+        }
+
+        if (Input.GetKeyDown(KeyCode.KeypadEnter)) {
+            
         }
     }
 }
